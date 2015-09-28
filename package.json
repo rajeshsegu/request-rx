@@ -1,0 +1,54 @@
+{
+  "name": "request-rx",
+  "description": "request module that returns Rx.Observable",
+  "version": "0.1.0",
+  "author": "Rajesh Segu <rajesh.segu@gmail.com>",
+  "keywords": [
+    "request",
+    "rx",
+    "request-rx",
+    "reactive",
+    "rxjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajeshsegu/request-rx"
+  },
+  "bugs": {
+    "url": "https://github.com/rajeshsegu/request-rx/issues/new",
+    "email": "rajesh.segu@gmail.com"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "2.x"
+  },
+  "licenses": [],
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.64.0",
+    "rx": "^3.1.2",
+    "xtend": "^4.0.0"
+  },
+  "devDependencies": {
+    "build-changelog": "^2.1.2",
+    "express": "^4.13.3",
+    "husky": "^0.9.2",
+    "istanbul": "^0.3.13",
+    "opn": "^3.0.2",
+    "scotch-tape": "^0.2.1",
+    "tape": "^4.0.0",
+    "uber-standard": "^4.0.1"
+  },
+  "scripts": {
+    "changelog-major": "build-changelog --major",
+    "changelog-minor": "build-changelog --minor",
+    "changelog-patch": "build-changelog --patch",
+    "cover": "istanbul cover --report cobertura --print detail tape -- test/*.tap.js",
+    "examples": "node examples/weather.js",
+    "fast-test": "tape test/*.tap.js",
+    "lint": "uber-standard",
+    "precommit": "npm run lint -s",
+    "test": "npm run lint -s && npm run cover -s",
+    "view-cover": "istanbul report html && opn ./coverage/index.html"
+  }
+}
