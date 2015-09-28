@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rajeshsegu/request-rx.svg?branch=master)](https://travis-ci.org/rajeshsegu/request-rx)
+[![Coverage Status](https://coveralls.io/repos/rajeshsegu/request-rx/badge.svg?branch=master&service=github)](https://coveralls.io/github/rajeshsegu/request-rx?branch=master)
 # request-rx
 
 request module that returns rx.Observable
