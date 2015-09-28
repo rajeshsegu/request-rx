@@ -18,11 +18,11 @@
     "url": "https://github.com/rajeshsegu/request-rx/issues/new",
     "email": "rajesh.segu@gmail.com"
   },
+  "homepage": "https://github.com/rajeshsegu/request-rx#readme",
   "engines": {
     "node": "0.10.x",
     "npm": "2.x"
   },
-  "licenses": [],
   "main": "index.js",
   "dependencies": {
     "request": "^2.64.0",
@@ -50,5 +50,11 @@
     "precommit": "npm run lint -s",
     "test": "npm run lint -s && npm run cover -s",
     "view-cover": "istanbul report html && opn ./coverage/index.html"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test",
+    "src": "lib"
+  },
+  "license": "MIT"
 }
