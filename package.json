@@ -1,7 +1,7 @@
 {
   "name": "request-rx",
   "description": "request module that returns Rx.Observable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Rajesh Segu <rajesh.segu@gmail.com>",
   "keywords": [
     "request",
