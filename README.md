@@ -73,7 +73,9 @@ requestRx({
 
 ## Examples
 
-You can the working example under `examples` folder
+[request-rx Weather API](https://tonicdev.com/560d8a6cea09080c00bb515a/request-rx)
+
+You can also find working example under `examples` folder
 
 ```
 npm run examples
